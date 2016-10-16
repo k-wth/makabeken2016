@@ -21,7 +21,7 @@ phpのやさしいところとして、日本語のドキュメントが充実�
 ```php
   <?php
     $dir = './' // 取得したいディレクトリのpathを書く.
-    $files = scandir($dir);
+    $files = scandir($dir); // そのpathのディレクトリの中身をくれる.(配列)
   ?> 
 ```
 かけた。
